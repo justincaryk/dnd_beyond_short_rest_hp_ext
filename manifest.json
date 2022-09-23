@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "dndbeyond_short_rest",
+  "version": "1.0",
+  "description": "Adds a health element in the short rest slider",
+  "icons": {
+    "48": "icons/icon.jpg"
+  },
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": "icons/icon.jpg",
+    "default_title": "dndbeyond short rest"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.dndbeyond.com/characters/*"],
+      "js": ["./content_scripts/addShortRestHp.js"]
+    }
+  ]
+}
