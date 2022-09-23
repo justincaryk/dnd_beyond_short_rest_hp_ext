@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Adds a health element in the short rest slider",
   "icons": {
-    "48": "icons/icon.jpg"
+    "48": "icons/icon-48.png"
   },
   "permissions": ["activeTab"],
   "browser_action": {
