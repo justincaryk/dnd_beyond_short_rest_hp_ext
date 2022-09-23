@@ -1,0 +1,13 @@
+{
+  "name": "dnd_beyond_short_rest_hp_ext",
+  "version": "1.0.0",
+  "description": "inserts an hp element into a slideout for short resting in dndbeyond",
+  "main": "index.js",
+  "repository": "git@github.com:JustinCaryk/dnd_beyond_short_rest_hp_ext.git",
+  "author": "Justin Caryk <cary9983@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "web-ext build"
+  }
+}
