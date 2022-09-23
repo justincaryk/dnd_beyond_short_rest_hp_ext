@@ -19,7 +19,7 @@ const runWhenReady = () => {
                 let hpElemInSlider = document.getElementById(ELEM_ID_CONST)
                 
                 if (hpElemInSlider) {
-                    hpElemInSlider.innerHTML = `${mutation.target.data} HP`
+                    hpElemInSlider.innerText = `${mutation.target.data} HP`
                     return true;
                 }
 
@@ -33,7 +33,7 @@ const runWhenReady = () => {
                 // create the element
                 hpElemInSlider = document.createElement('h3')
                 // set the inner text
-                hpElemInSlider.innerHTML = `${mutation.target.data} HP`
+                hpElemInSlider.innerText = `${mutation.target.data} HP`
                 // set an id so it can be found later rather than continually adding new
                 hpElemInSlider.id = ELEM_ID_CONST
                 // add styles so it's obvious
