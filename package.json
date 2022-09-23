@@ -8,6 +8,6 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "web-ext build"
+    "build": "web-ext build --overwrite-dest"
   }
 }
